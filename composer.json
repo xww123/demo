@@ -1,0 +1,14 @@
+{
+    "name": "xww123/demo",
+    "description": "test project",
+    "type": "project",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "xww123",
+            "email": "unix_pro@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
