@@ -29,7 +29,6 @@ class Bootstrap{
         }
 //        $obj = new $class();
 //        $obj->$action();
-
 //        (new $class)->$action();
 
         echo (new $class())->$action();
