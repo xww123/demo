@@ -24,7 +24,6 @@ class View{
     {
         // TODO: Implement __toString() method.
         extract($this->vars);
-//        echo 333;
         include $this->file;
         return '';
     }
