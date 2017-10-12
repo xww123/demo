@@ -22,7 +22,6 @@ class Bootstrap{
 //            dd($info);
             $class = '\web\controller\\'.ucfirst($info[0]);
             $action = isset($info[1])&&trim($info[1]) ? $info[1] : 'index';
-
         }else{
             $class = "\\web\\controller\\Index";
             $action = "index";
