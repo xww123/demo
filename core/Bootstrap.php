@@ -19,7 +19,7 @@ class Bootstrap{
         if(isset($_GET['s'])){
 //            分析s变量生成控制器方法
             $info = explode('/',$_GET['s']);
-//            dd($info);
+//          dd($info);
             $class = '\web\controller\\'.ucfirst($info[0]);
             $action = isset($info[1])&&trim($info[1]) ? $info[1] : 'index';
         }else{
